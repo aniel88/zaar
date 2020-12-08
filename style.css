@@ -1,0 +1,173 @@
+body {
+  background-color: brown;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.zar {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  border-radius: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.hidden {
+  display: none;
+}
+.roll-dice {
+  position: fixed;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -62%);
+  font-size: 30px;
+  width: 300px;
+  border-radius: 30px;
+  height: 50px;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.reset-button {
+  position: fixed;
+  top: 68%;
+  left: 50%;
+  transform: translate(-50%, -68%);
+  font-size: 30px;
+  width: 300px;
+  border-radius: 30px;
+  height: 50px;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.one {
+  border-radius: 50px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.two {
+  border-radius: 0 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.three {
+  border-radius: 0 50px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.five {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.six {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seven {
+  border-radius: 0 0 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.height {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nine {
+  border-radius: 0 0 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player1-text {
+  position: fixed;
+  top: 30%;
+  left: 33%;
+  transform: translate(-33%, -30%);
+  font-size: 35px;
+  color: white;
+}
+.player2-text {
+  position: fixed;
+  top: 30%;
+  left: 66%;
+  transform: translate(-66%, -30%);
+  font-size: 35px;
+  color: white;
+}
+.player1-current-dice {
+  position: fixed;
+  top: 35%;
+  left: 33%;
+  transform: translate(-33%, -35%);
+  font-size: 35px;
+  color: white;
+}
+.player2-current-dice {
+  position: fixed;
+  top: 35%;
+  left: 64.5%;
+  transform: translate(-64.5%, -35%);
+  font-size: 35px;
+  color: white;
+}
+.player1-text-score {
+  position: fixed;
+  top: 40%;
+  left: 32.5%;
+  transform: translate(-32.5%, -40%);
+  font-size: 35px;
+  color: white;
+}
+.player2-text-score {
+  position: fixed;
+  top: 40%;
+  left: 65.2%;
+  transform: translate(-65.2%, -40%);
+  font-size: 35px;
+  color: white;
+}
+
+.player1-score {
+  position: fixed;
+  top: 40%;
+  left: 37%;
+  transform: translate(-37%, -40%);
+  font-size: 35px;
+  color: white;
+}
+.player2-score {
+  position: fixed;
+  top: 40%;
+  left: 68%;
+  transform: translate(-68%, -40%);
+  font-size: 35px;
+  color: white;
+}
+.info {
+  position: fixed;
+  top: 71%;
+  left: 50%;
+  transform: translate(-50%, -71%);
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  color: gray;
+}
