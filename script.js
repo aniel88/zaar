@@ -98,6 +98,7 @@ function startGame() {
         player2CurrentDice.textContent = numberGenerator;
         drawDie(numberGenerator);
       } else {
+        drawDie(6);
         player1CurrentDice.textContent = 0;
         player2CurrentDice.textContent = 0;
         isWinnerSet = 0;
@@ -115,6 +116,7 @@ function startGame() {
         player1CurrentDice.textContent = numberGenerator;
         drawDie(numberGenerator);
       } else {
+        drawDie(6);
         player1CurrentDice.textContent = 0;
         player2CurrentDice.textContent = 0;
         isWinnerSet = 0;
