@@ -20,9 +20,9 @@ body {
 }
 .roll-dice {
   position: fixed;
-  top: 62%;
+  top: 570px;
   left: 50%;
-  transform: translate(-50%, -62%);
+  transform: translate(-50%, 0%);
   font-size: 30px;
   width: 300px;
   border-radius: 30px;
@@ -33,9 +33,9 @@ body {
 }
 .reset-button {
   position: fixed;
-  top: 68%;
+  top: 630px;
   left: 50%;
-  transform: translate(-50%, -68%);
+  transform: translate(-50%, 0%);
   font-size: 30px;
   width: 300px;
   border-radius: 30px;
@@ -163,11 +163,83 @@ body {
 }
 .info {
   position: fixed;
-  top: 71%;
+  top: 660px;
   left: 50%;
-  transform: translate(-50%, -71%);
+  transform: translate(-50%, 0%);
   text-align: center;
   font-size: 35px;
   color: white;
   color: gray;
+}
+
+@media (max-width: 321px) {
+  body {
+    background-color: gray;
+  }
+  .info {
+    top: 700px;
+    font-size: 20px;
+    color: black;
+    width: 300px;
+  }
+  .player1-text {
+    position: fixed;
+    top: 100px;
+    left: 63px;
+
+    font-size: 20px;
+    color: white;
+  }
+  .player2-text {
+    position: fixed;
+    top: 100px;
+    left: 220px;
+    font-size: 20px;
+    color: white;
+  }
+  .player1-current-dice {
+    position: fixed;
+    top: 125px;
+    left: 63px;
+
+    font-size: 20px;
+    color: white;
+  }
+  .player2-current-dice {
+    position: fixed;
+    top: 125px;
+    left: 200px;
+    font-size: 20px;
+    color: white;
+  }
+  .player1-text-score {
+    position: fixed;
+    top: 145px;
+    left: 60px;
+
+    font-size: 22px;
+    color: white;
+  }
+  .player2-text-score {
+    position: fixed;
+    top: 145px;
+    left: 215px;
+
+    font-size: 22px;
+    color: white;
+  }
+  .player1-score {
+    position: fixed;
+    top: 165px;
+    left: 60px;
+    font-size: 35px;
+    color: white;
+  }
+  .player2-score {
+    position: fixed;
+    top: 165px;
+    left: 200px;
+    font-size: 35px;
+    color: white;
+  }
 }
