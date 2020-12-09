@@ -174,7 +174,7 @@ body {
 
 @media (max-width: 321px) {
   body {
-    background-color: gray;
+    background-color: brown;
   }
   .info {
     top: 700px;
@@ -239,6 +239,78 @@ body {
     position: fixed;
     top: 165px;
     left: 200px;
+    font-size: 35px;
+    color: white;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: brown;
+  }
+  .info {
+    top: 700px;
+    font-size: 20px;
+    color: black;
+    width: 300px;
+  }
+  .player1-text {
+    position: fixed;
+    top: 100px;
+    left: 24%;
+
+    font-size: 20px;
+    color: white;
+  }
+  .player2-text {
+    position: fixed;
+    top: 100px;
+    left: 77%;
+    font-size: 20px;
+    color: white;
+  }
+  .player1-current-dice {
+    position: fixed;
+    top: 125px;
+    left: 27%;
+
+    font-size: 20px;
+    color: white;
+  }
+  .player2-current-dice {
+    position: fixed;
+    top: 125px;
+    left: 75%;
+    font-size: 20px;
+    color: white;
+  }
+  .player1-text-score {
+    position: fixed;
+    top: 145px;
+    left: 71%;
+
+    font-size: 22px;
+    color: white;
+  }
+  .player2-text-score {
+    position: fixed;
+    top: 145px;
+    left: 28%;
+
+    font-size: 22px;
+    color: white;
+  }
+  .player1-score {
+    position: fixed;
+    top: 165px;
+    left: 25%;
+    font-size: 35px;
+    color: white;
+  }
+  .player2-score {
+    position: fixed;
+    top: 165px;
+    left: 75%;
     font-size: 35px;
     color: white;
   }
